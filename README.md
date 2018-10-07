@@ -1,4 +1,4 @@
-# chatmessenger
+# chatmessenger.
 This is a node project aimed at building a chat application using express and socket IO framework. 
 
 The google oauth2 is used to get the user logged into to the app and the app inturn used the profile details from the google server as per the permission allowed.
