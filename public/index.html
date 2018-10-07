@@ -1,0 +1,36 @@
+<div align="center">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link href="/styles.css" rel="stylesheet" />
+<!--script type="text/javascript">
+ $(document).ready(function () {
+			
+		 $('#fblogin').click(function(){
+			
+			$.ajax({
+				url: "/login/facebook",
+				headers: {"X-Requested-With" : "XMLHttpRequest"}
+});
+$.ajax({
+  url: "/login/facebook",
+  cache: false,
+  success: function(html){
+    window.location//$("#results").append(html);
+  }
+});
+    });
+	});
+</script-->
+<p>
+    <a id="fblogin" href='/auth/facebook'><img src="fb_logo.png" border="0" /></a>
+</p>
+<p>
+<a id="gitlogin" href='/auth/github'><img src="github.png" border="0" /></a>
+</p>
+<p>
+<a id="gitlogin" href='/auth/google'><img src="google.png" border="0" /></a>
+</p>
+</div>
